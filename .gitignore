@@ -5,7 +5,8 @@ desktop.ini
 *.tmp
 *.bak
 
-# IDE ed Editor (Configurazioni personali dei tuoi strumenti di scrittura)
+# IDE ed Editor (Configurazioni personali dei tuoi strumenti di scrittura). Perché ignorarli (La prima linea di DevSecOps): Questa è la sezione più critica in assoluto.
+# Su GitHub i repository sono scansionati da bot malevoli ogni secondo alla ricerca di stringhe simili a chiavi AWS o token.
 .vscode/
 .idea/
 *.suo
