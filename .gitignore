@@ -1,0 +1,39 @@
+# Core di Sistema (Evitiamo file inutili del sistema operativo)
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+
+# IDE ed Editor (Configurazioni personali dei tuoi strumenti di scrittura)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Sicurezza e Segreti (CRITICO: Non caricare mai chiavi private o credenziali)
+*.env
+*.env.local
+*.env.*.local
+*.pem
+*.key
+*.cert
+
+# Log e Cache
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.node_repl_history
+
+# Eventuali dipendenze locali o artifact di test
+node_modules/
+/dist
+/build
+/out
+.trivy/
+.semgrep/
